@@ -1,0 +1,17 @@
+# Kaggle credentials - never commit your API token
+kaggle.json
+
+# Downloaded dataset (fetched at runtime via opendatasets, not committed)
+nbs/player-scores/
+nbs/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# Spark / Hadoop local state (if run outside Docker volumes)
+spark-warehouse/
+metastore_db/
+derby.log
