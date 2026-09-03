@@ -58,6 +58,20 @@ The Docker Compose setup (HDFS + Spark cluster configuration) is adapted from a 
    ```
 5. Open `football_analysis.ipynb` and run the cells — it reads directly from `hdfs://namenode:9000/dataset/`.
 
+## Results
+
+**Champions by season** — total goals scored by the winning club each season.
+
+<img width="712" height="424" alt="cell7" src="https://github.com/user-attachments/assets/1623fb52-3c11-4e7d-82ac-3560b23d3fb9" />
+
+**Highest goal scorers by season** — top scorer per season, stacked across years.
+
+<img width="856" height="424" alt="cell11" src="https://github.com/user-attachments/assets/befb708a-1161-44a4-a457-5e7765dde310" />
+
+**Market value over time: Messi vs. Mbappé** — tracking both players' valuations across their last 10 seasons.
+
+<img width="855" height="424" alt="cell15" src="https://github.com/user-attachments/assets/9b4f3deb-a019-4566-af7b-0742bf8d14c5" />
+
 ## Notes
 
 This was built for a Cloud Computing course's "Big Data query and analytics" project track, so the multi-node HDFS/Spark cluster configuration and GCP deployment were graded requirements, not just implementation choices. The Docker Compose infrastructure is adapted from the course's base template; the analytical queries, dataset integration, and visualisations in the notebook are my own work.
