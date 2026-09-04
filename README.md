@@ -1,6 +1,6 @@
 # Football Analytics on the Cloud
 
-A big-data analytics project on European football data — player stats, club performance, and market values — processed with Apache Spark over a Hadoop (HDFS) cluster, deployed on a Google Cloud Platform VM. Built as an individual project for INFS3208 (Cloud Computing) at the University of Queensland.
+A big-data analytics project on European football data — player stats, club performance, and market values — processed with Apache Spark over a Hadoop (HDFS) cluster, deployed on a Google Cloud Platform VM. Built as an individual project for a cloud computing course.
 
 ## What it does
 
@@ -29,7 +29,7 @@ The whole stack — HDFS namenode/datanodes/resourcemanager, Spark master/worker
 
 ## Dataset
 
-[Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores) (Kaggle, by David Cariboo) — appearances, clubs, competitions, games, game events/lineups, player valuations, and player records, well over the individual project's 10,000-record minimum.
+[Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores) (Kaggle, by David Cariboo) — appearances, clubs, competitions, games, game events/lineups, player valuations, and player records, well over the project's 10,000-record minimum.
 
 ## Tech stack
 
@@ -74,4 +74,4 @@ The Docker Compose setup (HDFS + Spark cluster configuration) is adapted from a 
 
 ## Notes
 
-This was built for a Cloud Computing course's "Big Data query and analytics" project track, so the multi-node HDFS/Spark cluster configuration and GCP deployment were graded requirements, not just implementation choices. The Docker Compose infrastructure is adapted from the course's base template; the analytical queries, dataset integration, and visualisations in the notebook are my own work.
+This was built for a cloud computing course's "Big Data query and analytics" project track, so the multi-node HDFS/Spark cluster configuration and GCP deployment were graded requirements, not just implementation choices. The Docker Compose infrastructure is adapted from the course's base template; the analytical queries, dataset integration, and visualisations in the notebook are my own work.
